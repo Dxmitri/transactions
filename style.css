@@ -1,0 +1,20 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#transactions {
+    display: table;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.transaction {
+    border: 1px solid #c31f1f;
+    padding: 15px;
+    border-radius: 5px;
+}
